@@ -1,2 +1,4 @@
+require("./mapdc.css")
 require("./scss/chart.scss")
-require("expose?dc!./src/index.js")
+require("mapbox-gl/dist/mapbox-gl.css")
+require("expose-loader?dc!./src/index.js")
